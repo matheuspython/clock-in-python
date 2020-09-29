@@ -29,7 +29,8 @@ class clock:
         print('now its hours {} minutes {} and seconds {}'.format(self.hours[self.hour_counter], self.minutes[self.minutes_counter], self.seconds[self.seconds_counter]))
             
         while self.zero != 1:
-        
+            # if you want you can take this comment off when you execute it it looks more like a real watch 
+            # sleep(1)
             if self.seconds_counter == 60:
                 self.minutes_counter += 1
                 self.seconds_counter = 0
